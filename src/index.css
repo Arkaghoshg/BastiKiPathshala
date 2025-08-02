@@ -2,41 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* NGO Education Foundation Design System */
 
 @layer base {
   :root {
+    /* Core Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 15% 20%;
 
+    /* Card & Surface Colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 15% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Brand - Deep Blue (Trust & Education) */
+    --primary: 210 100% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 210 85% 45%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Warm Orange (Hope & Community) */
+    --secondary: 25 95% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 25 90% 65%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Supporting Colors */
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 10% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 100% 85%;
+    --accent-foreground: 210 15% 20%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* UI Elements */
+    --border: 210 20% 90%;
+    --input: 210 20% 95%;
+    --ring: 210 100% 35%;
 
-    --radius: 0.5rem;
+    /* Design Tokens */
+    --radius: 0.75rem;
+
+    /* Custom Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(210 100% 35%), hsl(25 95% 55%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    --gradient-community: linear-gradient(45deg, hsl(25 95% 55%), hsl(45 100% 70%));
+
+    /* Shadows */
+    --shadow-gentle: 0 4px 20px -4px hsl(210 100% 35% / 0.15);
+    --shadow-warm: 0 8px 30px -8px hsl(25 95% 55% / 0.25);
+
+    /* Animation */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 

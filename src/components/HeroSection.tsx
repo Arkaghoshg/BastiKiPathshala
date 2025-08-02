@@ -62,7 +62,7 @@ const HeroSection = () => {
                 Join as Volunteer
                 <ArrowRight className="h-5 w-5" />
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="outline" size="lg" className="text-lg px-8 py-3 border-white text-primary hover:bg-primary hover:text-white">
                 Learn More
               </Button>
             </div>

@@ -12,3 +12,11 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+
+// The robots.txt file tells web crawlers (like Googlebot, Bingbot, 
+//etc.) which parts of your website they are allowed to access and 
+//index. In your file, all major bots and all other bots are allowed 
+//to crawl your entire site. This helps search engines and social media 
+//platforms discover and index your content.
+// It's important for seo
